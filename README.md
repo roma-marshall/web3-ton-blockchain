@@ -8,11 +8,11 @@ The TON-based dApp shows the initialization of a smart contract on the TON Virtu
 
 ```json
 {
-  "url": "<app-url>",                        // required
-  "name": "<app-name>",                      // required
-  "iconUrl": "<app-icon-url>",               // required
-  "termsOfUseUrl": "<terms-of-use-url>",     // optional
-  "privacyPolicyUrl": "<privacy-policy-url>" // optional
+  "url": "<app-url>",
+  "name": "<app-name>",
+  "iconUrl": "<app-icon-url>",
+  "termsOfUseUrl": "<terms-of-use-url>",
+  "privacyPolicyUrl": "<privacy-policy-url>"
 }
 ```
 
