@@ -62,7 +62,7 @@ const sendTransaction = () => {
 
 ```
 git clone https://github.com/roma-marshall/web3-ton-dapp.git
-cd web3-ton-blockchain
+cd web3-ton-dapp
 npm run dev
 ```
 
