@@ -2,6 +2,17 @@
   <div class="container mx-auto lg:flex lg:flex-col py-20 space-y-10">
     <TonConnectButton class="mx-auto" />
 
+    <div v-if="!address" class="space-y-2 mx-5 lg:mx-0">
+      <h1 class="font-sans text-3xl text-[#1E2337] font-bold text-center">
+        Connect your web3 wallet to use dApp
+      </h1>
+
+      <a href="https://ton.org/en/wallets" target="_blank"
+         class="flex justify-center font-sans text-xl text-[#0098EA] transition-all hover:scale-brand">
+        Get a wallet
+      </a>
+    </div>
+
     <div v-if="address" class="flex flex-col mx-5 lg:mx-0 space-y-4">
       <div class="flex flex-col space-y-2">
         <span>from</span>
