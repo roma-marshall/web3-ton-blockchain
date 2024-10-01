@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@townsquarelabs/ui-vue": "^2.0.10-beta.0",
     "vue": "^3.4.37"
   },
   "devDependencies": {
