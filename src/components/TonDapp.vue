@@ -61,7 +61,7 @@ const sendTransaction = async () => {
       messages: [
         {
           address: receiver.value,
-          amount: amount.value * 10**9, // 1 ton = 1.000.000.000
+          amount: amount.value * 10**9 // 1 ton = 1.000.000.000
         }
       ]
     })
