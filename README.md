@@ -16,7 +16,7 @@ The TON-based dApp shows the initialization of a smart contract on the TON Virtu
 }
 ```
 
-2. Initialization of `TonConnectUIProvider` in `App.vue`-component
+2. Initialization of `TonConnectUIProvider` in `App.vue` component
 
 ```html
 <template>
