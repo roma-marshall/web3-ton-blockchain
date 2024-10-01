@@ -55,14 +55,6 @@ const { notify }  = useNotification()
 
 const sendTransaction = async () => {
   if (receiver.value && amount.value) {
-    notify({
-      title: 'Transaction sent',
-      type: 'notification',
-      speed: 500,
-      duration: 1500,
-      ignoreDuplicates: true
-    })
-
     await tonConnectUI.sendTransaction({
       validUntil: Math.floor(Date.now() / 1000) + 60, // 60 sec
 
