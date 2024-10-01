@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.notification {
+    color: rgb(15 23 42) !important;
+    font-size: 16px !important;
+    margin: 1rem !important;
+    padding: 0.75rem 1.25rem !important;
+    background: white !important;
+    border-radius: 10px !important;
+    border: 1px solid rgb(209 213 219) !important;
+}

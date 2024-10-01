@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kyvg/vue3-notification": "^3.3.0",
     "@townsquarelabs/ui-vue": "^2.0.10-beta.0",
     "vue": "^3.4.37"
   },

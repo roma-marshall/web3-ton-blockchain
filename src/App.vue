@@ -3,6 +3,7 @@
     <TonConnectUIProvider :options="options">
       <TonConnect />
     </TonConnectUIProvider>
+    <notifications position="top right" />
   </div>
 </template>
 
