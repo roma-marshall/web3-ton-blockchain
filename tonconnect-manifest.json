@@ -1,7 +1,7 @@
 {
-  "url": "https://web3-ton-blockchain.vercel.app",
+  "url": "https://web3-ton-dapp.vercel.app",
   "name": "TON dApp",
   "iconUrl": "https://ton.org/download/ton_symbol.png",
-  "termsOfUseUrl": "https://web3-ton-blockchain.vercel.app",
-  "privacyPolicyUrl": "https://web3-ton-blockchain.vercel.app"
+  "termsOfUseUrl": "https://web3-ton-dapp.vercel.app",
+  "privacyPolicyUrl": "https://web3-ton-dapp.vercel.app"
 }

@@ -61,7 +61,7 @@ const sendTransaction = () => {
 ## Recommended Installation
 
 ```
-git clone https://github.com/roma-marshall/web3-ton-blockchain.git
+git clone https://github.com/roma-marshall/web3-ton-dapp.git
 cd web3-ton-blockchain
 npm run dev
 ```
