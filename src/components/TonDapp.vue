@@ -3,12 +3,12 @@
     <TonConnectButton class="mx-auto" />
 
     <div v-if="!address" class="space-y-2 mx-5 lg:mx-0">
-      <h1 class="font-sans text-3xl text-[#1E2337] font-bold text-center">
+      <h1 class="text-3xl text-[#1E2337] font-bold text-center">
         Connect your web3 wallet to use dApp
       </h1>
 
       <a href="https://ton.org/en/wallets" target="_blank"
-         class="flex justify-center font-sans text-xl text-[#0098EA] transition-all hover:scale-brand">
+         class="flex justify-center text-xl text-[#0098EA] transition-all hover:scale-brand">
         Get a wallet
       </a>
     </div>
@@ -55,21 +55,13 @@ const { notify }  = useNotification()
 
 const sendTransaction = async () => {
   if (receiver.value && amount.value) {
-    notify({
-      title: 'Transaction sent',
-      type: 'notification',
-      speed: 500,
-      duration: 1500,
-      ignoreDuplicates: true
-    })
-
     await tonConnectUI.sendTransaction({
       validUntil: Math.floor(Date.now() / 1000) + 60, // 60 sec
 
       messages: [
         {
           address: receiver.value,
-          amount: amount.value * 10**9, // 1 ton = 1.000.000.000
+          amount: amount.value * 10**9 // 1 ton = 1.000.000.000
         }
       ]
     })
