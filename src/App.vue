@@ -14,5 +14,5 @@ import TonConnect from './components/TonDapp.vue'
 import Footer from './components/Footer.vue'
 import { TonConnectUIProvider } from '@townsquarelabs/ui-vue'
 
-const options = ref({manifestUrl: window.location.href + 'tonconnect-manifest.json'})
+const options = ref({manifestUrl: 'https://raw.githubusercontent.com/roma-marshall/web3-ton-dapp/refs/heads/main/tonconnect-manifest.json'})
 </script>
